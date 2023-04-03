@@ -1,0 +1,39 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+
+  extends: [
+    // Renovate's default configuration
+    "config:base",
+
+    // Limit the number of PRs by grouping all dependencies into a single PR
+    "group:all",
+
+    // Automerge everything once a week
+    "schedule:automergeEarlyMondays",
+  ],
+
+  // Add these labels to all PRs to make them easy to visually separate
+  addLabels: ["dependencies"],
+
+  // Set the timezone for schedules
+  timezone: "America/Los_Angeles",
+
+  // Use the CODEOWNERS file to assign reviewers
+  reviewersFromCodeOwners: true,
+  assigneesFromCodeOwners: true,
+
+  // Always be notified when a PR is created
+  assignAutomerge: true,
+
+  // Make sure dependencies are somewhat hardened first
+  // No need to rush to be on the latest versions of everything
+  stabilityDays: 5,
+
+  // Always run off latest main to ensure CI is run against the latest code
+  // Limit to 1 concurrent PR to avoid re-triggering CI for every rebase
+  rebaseWhen: "behind-base-branch",
+  prConcurrentLimit: 1,
+
+  // Enable lockfile maintenance. The schedule and priority are configured further down
+  lockFileMaintenance: { enabled: true },
+}
