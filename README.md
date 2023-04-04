@@ -7,11 +7,9 @@ Source repo for [kapileaswar.com][website-url]
 
 | Circle CI | Github Pages |
 |----------|--------------|
-| [![CircleCI][circleci-status-badge]][circleci-status] | [![pages-build-deployment][gh-pages-status-badge]][gh-pages-status] |
+| [![CircleCI](https://dl.circleci.com/status-badge/img/gh/bigpopakap/website/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/bigpopakap/website/tree/main) | [![pages-build-deployment](https://github.com/bigpopakap/website/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/bigpopakap/website/actions/workflows/pages/pages-build-deployment) |
 
 ## Running locally
-
-Quickstart
 
 ```
 # Install dependencies
@@ -23,12 +21,11 @@ bundle exec jekyll serve -l --source docs/
 # Visit localhost:4000, or whatever the build output says
 ```
 
+## Common use cases
+
+* [Publishing a post]()
+* [Writing a draft post](https://jekyllrb.com/docs/posts/#drafts)
+
 [//]: # (References)
 
 [website-url]: https://http://kapileaswar.com/
-
-[circleci-status-badge]: https://dl.circleci.com/status-badge/img/gh/bigpopakap/website/tree/main.svg?style=svg
-[circleci-status]: https://dl.circleci.com/status-badge/redirect/gh/bigpopakap/website/tree/main
-
-[gh-pages-status-badge]: https://github.com/bigpopakap/website/actions/workflows/pages/pages-build-deployment/badge.svg
-[gh-pages-status]: https://github.com/bigpopakap/website/actions/workflows/pages/pages-build-deployment
