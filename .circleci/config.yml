@@ -1,7 +1,6 @@
 version: 2.1
 
 orbs:
-  node: circleci/node@5.1.0
   commitlint: conventional-changelog/commitlint@1.0.0
   renovate: daniel-shuy/renovate@3.1.0
 
