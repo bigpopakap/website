@@ -7,7 +7,7 @@ Source repo for [kapileaswar.com][website-url]
 
 | Circle CI | Github Pages |
 |----------|--------------|
-| [![CircleCI][circleci-status-badge]][circleci-status-badge] | [![pages-build-deployment][gh-pages-status-badge]][gh-pages-status] |
+| [![CircleCI][circleci-status-badge]][circleci-status] | [![pages-build-deployment][gh-pages-status-badge]][gh-pages-status] |
 
 ## Running locally
 
