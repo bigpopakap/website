@@ -1,19 +1,17 @@
+# Plugins
+plugins:
+  - jekyll-feed
+
+# Theme
+remote_theme: daattali/beautiful-jekyll@5.0.0
+
+# Basic site
 title: Kapil Easwar
 description: Insert fun personal tagline here.
 
-# Customize the template's links
-show_downloads: false
-github:
-  repository_url: https://github.com/bigpopakap
 
-# Note: the Slate theme does not work with Google Analystics 4
-#       see https://github.com/pages-themes/slate/issues/49
-google_analytics: G-NQ6TZW218Q
 
-remote_theme: pages-themes/leap-day@v0.2.0
-
+# Feed generation options
 feed:
   path: /blog/feed.xml
 
-plugins:
-  - jekyll-feed
