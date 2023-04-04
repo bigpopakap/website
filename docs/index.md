@@ -1,5 +1,11 @@
-Kapil Easwar
-============
+---
+title: Kapil Easwar
+subtitle: null
+cover-img: null
+
+# Use the regular "page" template, because by default the "home" template lists all blog posts
+layout: page
+---
 
 Hi, welcome to my personal webiste!
 
