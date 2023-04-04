@@ -11,7 +11,7 @@ Insert fun personal tagline here.
 
 I write short, lighthearted and hopefully thoughtful posts whenever an idea or topic inspires me. Generally about math, tech, musings about life and relationships.
 
-[Check it out here](./blog.md)
+[Check it out here](./blog)
 
 # Tech projects
 
