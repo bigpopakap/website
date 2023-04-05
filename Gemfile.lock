@@ -259,12 +259,12 @@ PLATFORMS
   arm64-darwin-22
 
 DEPENDENCIES
-  beautiful-jekyll-theme
-  github-pages
-  jekyll
-  jekyll-redirect-from
-  jekyll-seo-tag
-  webrick
+  beautiful-jekyll-theme (= 5.0.0)
+  github-pages (= 228)
+  jekyll (= 3.9.3)
+  jekyll-redirect-from (= 0.16.0)
+  jekyll-seo-tag (= 2.8.0)
+  webrick (= 1.8.1)
 
 BUNDLED WITH
    2.4.6
