@@ -3,7 +3,6 @@ source "https://rubygems.org"
 gem "webrick", "1.8.1"
 gem "jekyll", "3.9.3"
 
-gem "beautiful-jekyll-theme", "5.0.0"
 gem "jekyll-redirect-from", "0.16.0"
 
 group :jekyll_plugins do
