@@ -1,5 +1,6 @@
 # Plugins
 plugins:
+  - jekyll-feed
   - jekyll-redirect-from
 
 # Theme
@@ -20,9 +21,9 @@ author: Kapil Easwar
 # This is a single string of comma-separated keywords
 keywords: "kapil easwar,projitect"
 
-# RSS feed description
-# Must set this to some value to get a feed generated
-rss-description: "Kapil Easwar's Blog"
+# RSS feed location
+feed:
+  path: /blog/feed.xml
 
 navbar-links:
   Blog: "blog"
