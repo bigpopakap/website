@@ -11,7 +11,7 @@ Hi, welcome to my personal webiste! I'm still building this out, so please excus
 
 I am currently building out [projitect][projitect-site]{:target="_blank"}, a dyanmic project scaffolding tool.
 
-On my blog, [Generalish][generalish-site]{:target="_blank"}, I write short, lighthearted, and hopefully thoughtful posts whenever an idea or topic inspires me. Generally about math, tech, musings about life and relationships.
+On my blog, [Generalish][generalish-site]{:target="_blank"}, I write short, lighthearted, and hopefully thoughtful posts whenever an idea or topic inspires me. Generally about math, tech, and musings about life.
 
 Check out my [resume](./resume.md).
 
