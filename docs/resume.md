@@ -4,4 +4,4 @@ subtitle: Resume
 cover-img: null
 ---
 
-Resume goes here
+Coming soon!

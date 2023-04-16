@@ -7,14 +7,17 @@ cover-img: null
 layout: page
 ---
 
-Hi, welcome to my personal webiste!
-
-On my blog I write short, lighthearted, and hopefully thoughtful posts whenever an idea or topic inspires me. Generally about math, tech, musings about life and relationships.
+Hi, welcome to my personal webiste! I'm still building this out, so please excuse the lameness.
 
 I am currently building out [projitect][projitect-site]{:target="_blank"}, a dyanmic project scaffolding tool.
+
+On my blog, [Generalish][generalish-site]{:target="_blank"}, I write short, lighthearted, and hopefully thoughtful posts whenever an idea or topic inspires me. Generally about math, tech, musings about life and relationships.
+
+Check out my [resume](./resume.md).
 
 I (in)famously don't use social media, but feel free to follow me (links in the footer) in case I ever start!
 
 [//]: # (References)
 
 [projitect-site]: https://projitect.dev
+[generalish-site]: https://generalish.com

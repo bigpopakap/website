@@ -1,8 +1,3 @@
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-redirect-from
-
 # Theme
 remote_theme: daattali/beautiful-jekyll@5.0.0
 
@@ -21,13 +16,9 @@ author: Kapil Easwar
 # This is a single string of comma-separated keywords
 keywords: "kapil easwar,projitect"
 
-# RSS feed location
-feed:
-  path: /blog/feed.xml
-
 navbar-links:
-  Blog: "blog"
   Resume: "resume"
+  "\"Generalish\" Blog": "https://generalish.com"
   Projitect: "https://projitect.dev"
 
 # Image to show in the navigation bar - works best with a square image
@@ -44,16 +35,15 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: bigpopakap
+  linkedin: kapileaswar
   github: bigpopakap
-  twitter: bigpopakap
+#  email: "someone@example.com"
+#  facebook: yourname
+#  twitter: yourname
 #  patreon: yourname
 #  youtube: yourname
 #  medium: yourname
 #  reddit: yourname
-#  linkedin: yourname
 #  xing: yourname
 #  stackoverflow: "yourname"
 #  snapchat: yourname
